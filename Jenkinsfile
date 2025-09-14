@@ -8,7 +8,7 @@ pipeline
       agent any
       options
       {
-        skipDefaultCheckout
+        skipDefaultCheckout()
       } 
       steps
       {
